@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Илья Б. — Веб-разработчик</title>
+  <meta name="description" content="Веб-разработчик. Верстка, правки, WordPress, 1С-Битрикс." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <a href="#" class="logo">Илья Б.</a>
+      <nav class="nav-links">
+        <a href="#about">О себе</a>
+        <a href="#projects">Проекты</a>
+        <a href="#contact">Контакты</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero container">
+      <h1>Илья Б.</h1>
+      <p class="subtitle">
+        Веб-разработчик. Верстка с нуля, правки, доработка сайтов на WordPress и 1С-Битрикс.
+        Работаю с реальными коммерческими проектами.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">Смотреть проекты</a>
+        <a href="#contact" class="btn btn-outline">Связаться</a>
+      </div>
+    </section>
+
+    <section id="about" class="container reveal">
+      <h2 class="section-title">О себе</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Занимаюсь веб-разработкой: собираю сайты с нуля, переношу статику в CMS,
+            дорабатываю существующие проекты. Работаю через IT-компанию — проекты
+            приходят от её клиентов.
+          </p>
+          <p>
+            Умею разбираться в чужом коде: находить неочевидные баги, конфликты плагинов,
+            проблемы с адаптивностью. Спокойно работаю с меняющимися требованиями и
+            правками по ходу проекта.
+          </p>
+          <p>
+            Сейчас развиваю собственный pet-проект — ИИ-среду для анализа серверов по SSH.
+          </p>
+        </div>
+        <div class="skills">
+          <div class="skills-group">
+            <h3>Core</h3>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">Python</span>
+          </div>
+          <div class="skills-group">
+            <h3>CMS</h3>
+            <span class="skill-tag">WordPress</span>
+            <span class="skill-tag">1С-Битрикс</span>
+          </div>
+          <div class="skills-group">
+            <h3>Инструменты</h3>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Reg.ru</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container reveal">
+      <h2 class="section-title">Проекты</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <img src="images/forza10-preview.png" alt="Forza10 — интернет-каталог" class="project-image" />
+          <div class="project-body">
+            <h3 class="project-title">Forza10 — интернет-каталог</h3>
+            <p class="project-desc">
+              Коммерческий сайт с нуля для бренда ветеринарных кормов. Без макета —
+              от референсов и словесного ТЗ.
+            </p>
+            <div class="project-tags">
+              <span>1С-Битрикс</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>PHP</span>
+              <span>адаптив</span>
+            </div>
+            <div class="project-links">
+              <a href="https://форза10.рф" target="_blank" rel="noopener">Живой сайт →</a>
+            </div>
+            <details>
+              <summary>Подробнее о кейсе</summary>
+              <p>
+                Развернул и настроил 1С-Битрикс, спроектировал структуру шаблона в
+                /local/templates/forza10. Реализовал адаптивную вёрстку, каталог,
+                умный поиск, мобильное бургер-меню. Проект собран без дизайн-макета —
+                от референсов и живых правок заказчика.
+              </p>
+            </details>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/psy-preview.png" alt="Сайт психолога на WordPress" class="project-image" />
+          <div class="project-body">
+            <h3 class="project-title">Сайт психолога — миграция в WordPress</h3>
+            <p class="project-desc">
+              Перенос статичного сайта в WordPress, решение проблем чужого кода,
+              настройка CMS для самостоятельного ведения.
+            </p>
+            <div class="project-tags">
+              <span>WordPress</span>
+              <span>PHP</span>
+              <span>ACF</span>
+              <span>Contact Form 7</span>
+              <span>Elementor</span>
+              <span>адаптив</span>
+            </div>
+            <div class="project-links">
+              <a href="https://ingener-psy.ru" target="_blank" rel="noopener">Живой сайт →</a>
+            </div>
+            <details>
+              <summary>Подробнее о кейсе</summary>
+              <p>
+                Перенёс вёрстку в кастомную тему, разбил на шаблоны. Устранил двойное
+                подключение JS, конфликт с Elementor, настроил ACF для редактирования
+                контента без кода. Подключил форму обратной связи, решил проблему
+                попадания писем в спам через WP Mail SMTP.
+              </p>
+            </details>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/course-zenit.png" alt="Курсовой проект — фотоаппарат Зенит" class="project-image" />
+          <div class="project-body">
+            <h3 class="project-title">Курсовой проект — фотоаппарат «Зенит»</h3>
+            <p class="project-desc">
+              Учебный многостраничник с интеграцией 3D-модели.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>3D</span>
+            </div>
+            <details>
+              <summary>Подробнее</summary>
+              <p>
+                Учебный проект. Многостраничный сайт, посвящённый фотоаппарату «Зенит»,
+                с интеграцией 3D-модели. Реализован на чистых HTML/CSS/JS.
+              </p>
+            </details>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/course-house.png" alt="Курсовой проект — доходный дом" class="project-image" />
+          <div class="project-body">
+            <h3 class="project-title">Курсовой проект — доходный дом</h3>
+            <p class="project-desc">
+              Учебный многостраничник о доходном доме, который сейчас является жилым.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <details>
+              <summary>Подробнее</summary>
+              <p>
+                Учебный проект. Многостраничный сайт с исторической справкой и
+                визуальными материалами. Реализован на чистых HTML/CSS/JS.
+              </p>
+            </details>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="contact" class="container reveal">
+      <h2 class="section-title">Контакты</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>
+            Открыт к новым проектам: верстка, правки, доработка сайтов на WordPress
+            и 1С-Битрикс. Пишите в Telegram — отвечу быстро.
+          </p>
+          <div class="contact-links">
+            <a href="https://t.me/EelijeE_web_dev" target="_blank" rel="noopener">
+              ✈️ Telegram: @EelijeE_web_dev
+            </a>
+            <a href="https://github.com/EelijeE" target="_blank" rel="noopener">
+              🐙 GitHub: EelijeE
+            </a>
+          </div>
+        </div>
+        <form id="contact-form">
+          <input type="text" name="name" placeholder="Ваше имя" required />
+          <input type="text" name="contact" placeholder="Telegram или Email" required />
+          <textarea name="message" placeholder="Ваше сообщение" required></textarea>
+          <button type="submit" class="btn btn-primary">Отправить</button>
+          <p class="form-status" id="form-status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 Илья Б. — веб-разработчик
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
