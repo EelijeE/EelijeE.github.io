@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forza10 — интернет-каталог | Илья Бабабеков</title>
+  <meta name="description" content="Коммерческий сайт с нуля для бренда ветеринарных кормов на 1С-Битрикс. Без макета — от референсов и словесного ТЗ." />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <a href="../index.html" class="logo">
+        <!-- Вставьте тот же SVG-код логотипа -->
+      </a>
+      <nav class="nav-links">
+        <a href="../index.html#about">О себе</a>
+        <a href="../index.html#services">Услуги</a>
+        <a href="../index.html#projects">Проекты</a>
+        <a href="../index.html#faq">FAQ</a>
+        <a href="../index.html#contact">Контакты</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">🌙</button>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <nav class="mobile-menu-links">
+      <a href="../index.html#about" data-num="01">О себе</a>
+      <a href="../index.html#services" data-num="02">Услуги</a>
+      <a href="../index.html#projects" data-num="03">Проекты</a>
+      <a href="../index.html#faq" data-num="04">FAQ</a>
+      <a href="../index.html#contact" data-num="05">Контакты</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- Breadcrumb -->
+    <div class="container">
+      <nav class="breadcrumb">
+        <a href="../index.html">Главная</a>
+        <span>/</span>
+        <a href="../index.html#projects">Проекты</a>
+        <span>/</span>
+        <span class="current">Forza10</span>
+      </nav>
+    </div>
+
+    <!-- Hero кейса -->
+    <section class="case-hero container">
+      <div class="case-hero-content reveal">
+        <div class="case-meta">
+          <span class="case-category">Коммерческий проект</span>
+          <span class="case-dot">·</span>
+          <span class="case-year">2025</span>
+        </div>
+        <h1>Forza10 — интернет-каталог ветеринарных кормов</h1>
+        <p class="case-lead">
+          Коммерческий сайт с нуля на 1С-Битрикс. Без дизайн-макета — от референсов
+          и словесного ТЗ до готового продукта.
+        </p>
+        <div class="case-tags">
+          <span>1С-Битрикс</span>
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>PHP</span>
+          <span>Reg.ru</span>
+        </div>
+        <div class="case-actions">
+          <a href="https://форза10.рф" target="_blank" rel="noopener" class="btn btn-primary">Открыть сайт →</a>
+          <a href="../index.html#contact" class="btn btn-outline">Обсудить похожий проект</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Обложка -->
+    <section class="container reveal">
+      <div class="case-cover">
+        <img src="../images/forza10-preview.webp" alt="Главная страница Forza10" />
+      </div>
+    </section>
+
+    <!-- Задача -->
+    <section class="container case-section reveal">
+      <h2>Задача</h2>
+      <p>
+        Разработать с нуля официальный интернет-каталог бренда профессиональных
+        ветеринарных кормов Forza10. Требовался быстрый, масштабируемый и визуально
+        выверенный коммерческий ресурс с корректным отображением на всех экранах.
+      </p>
+      <p>
+        <strong>Готового макета не было.</strong> На стартовом созвоне заказчик показал
+        два референса — латвийский и итальянский сайты бренда — и описал, что хотел
+        бы видеть. Задача — собрать финальный продукт из этого видения.
+      </p>
+    </section>
+
+    <!-- Что было сделано -->
+    <section class="container case-section reveal">
+      <h2>Что было сделано</h2>
+
+      <h3>Архитектура и CMS</h3>
+      <ul>
+        <li>Развернул и настроил 1С-Битрикс с индивидуальной структурой шаблона в <code>/local/templates/forza10</code>.</li>
+        <li>Спроектировал чистую файловую структуру и иерархию шаблонов — без лишних зависимостей, для высокой скорости загрузки.</li>
+        <li>Настроил серверное окружение на Reg.ru.</li>
+      </ul>
+
+      <h3>Frontend и адаптив</h3>
+      <ul>
+        <li>Реализовал адаптивную вёрстку на HTML5, CSS3 (Grid и Flexbox) и JavaScript.</li>
+        <li>Проработал адаптивную шапку, мобильное бургер-меню, интерактивный поиск, сетку каталога и карточки товара.</li>
+        <li>Стилизовал и интегрировал компоненты каталога, меню и навигации.</li>
+      </ul>
+
+      <h3>Работа без макета</h3>
+      <ul>
+        <li>Проанализировал два сайта-референса, выделил ключевые блоки и логику, собрал структуру будущего сайта.</li>
+        <li>Работал в режиме живых правок: требования менялись по ходу — удерживал единый стиль и не терял сроки.</li>
+      </ul>
+    </section>
+
+    <!-- Галерея -->
+    <section class="container case-section reveal">
+      <h2>Как это выглядит</h2>
+      <div class="case-gallery">
+        <div class="case-gallery-item">
+          <img src="../images/forza10-catalog.webp" alt="Каталог товаров" />
+          <p class="case-caption">Каталог с сеткой товаров</p>
+        </div>
+        <div class="case-gallery-item">
+          <img src="../images/forza10-card.webp" alt="Карточка товара" />
+          <p class="case-caption">Карточка товара</p>
+        </div>
+        <div class="case-gallery-item">
+          <img src="../images/forza10-search.webp" alt="Умный поиск" />
+          <p class="case-caption">Умный поиск: находит «Active» по запросу «актив»</p>
+        </div>
+        <div class="case-gallery-item case-gallery-mobile">
+          <img src="../images/forza10-mobile.webp" alt="Мобильная версия" />
+          <p class="case-caption">Мобильная версия + бургер-меню</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Технологии -->
+    <section class="container case-section reveal">
+      <h2>Технологии</h2>
+      <div class="case-tech-grid">
+        <div>
+          <h4>CMS</h4>
+          <p>1С-Битрикс</p>
+        </div>
+        <div>
+          <h4>Frontend</h4>
+          <p>HTML5, CSS3 (Grid, Flexbox), JavaScript</p>
+        </div>
+        <div>
+          <h4>Backend</h4>
+          <p>PHP (API Битрикса, D7)</p>
+        </div>
+        <div>
+          <h4>Инструменты</h4>
+          <p>VS Code, Reg.ru</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Результат -->
+    <section class="container case-section reveal">
+      <h2>Результат</h2>
+      <p>
+        Готовый коммерческий каталог с чистой архитектурой, быстрой загрузкой
+        и корректным отображением на всех устройствах. Сайт запущен и работает.
+      </p>
+      <p>
+        <strong>Отдельно стоит отметить:</strong> проект собран без дизайн-макета —
+        от словесного ТЗ и референсов. Это потребовало не только технической работы,
+        но и умения слышать заказчика, предлагать решения и адаптироваться
+        к меняющимся требованиям.
+      </p>
+    </section>
+
+    <!-- Навигация между кейсами -->
+    <section class="container case-nav reveal">
+      <a href="../index.html#projects" class="case-nav-item">
+        <span class="case-nav-label">← Все проекты</span>
+      </a>
+      <a href="psy.html" class="case-nav-item case-nav-next">
+        <span class="case-nav-label">Следующий проект →</span>
+        <span class="case-nav-title">Сайт психолога на WordPress</span>
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 Илья Бабабеков — веб-разработчик
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Наверх">↑</button>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Илья Бабабеков — Веб-разработчик</title>
+  <meta name="description" content="Веб-разработчик. Верстка с нуля, правки и доработка сайтов на WordPress и 1С-Битрикс. Опыт коммерческой разработки." />
+  <meta name="keywords" content="веб-разработчик, верстка, WordPress, 1С-Битрикс, фронтенд, HTML, CSS, JavaScript, PHP" />
+  <meta name="author" content="Илья Бабабеков" />
+
+  <!-- Open Graph — превью при отправке ссылки в Telegram, VK, WhatsApp -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Илья Бабабеков — Веб-разработчик" />
+  <meta property="og:description" content="Верстка с нуля, правки и доработка сайтов на WordPress и 1С-Битрикс." />
+  <meta property="og:url" content="https://eelijee.github.io/" />
+  <meta property="og:image" content="https://eelijee.github.io/images/og-preview.png" />
+  <meta property="og:locale" content="ru_RU" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Илья Бабабеков — Веб-разработчик" />
+  <meta name="twitter:description" content="Верстка с нуля, правки и доработка сайтов на WordPress и 1С-Битрикс." />
+  <meta name="twitter:image" content="https://eelijee.github.io/images/og-preview.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <a href="#" class="logo">
+        <!-- Вставьте сюда ваш SVG-код логотипа -->
+      </a>
+<nav class="nav-links">
+  <a href="#about">О себе</a>
+  <a href="#services">Услуги</a>
+  <a href="#projects">Проекты</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact">Контакты</a>
+  <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">🌙</button>
+</nav>
+<button class="burger" id="burger" aria-label="Меню" aria-expanded="false">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+    </div>
+  </header>
+  <div class="mobile-menu" id="mobileMenu">
+  <nav class="mobile-menu-links">
+    <a href="#about" data-num="01">О себе</a>
+    <a href="#services" data-num="02">Услуги</a>
+    <a href="#projects" data-num="03">Проекты</a>
+    <a href="#faq" data-num="04">FAQ</a>
+    <a href="#contact" data-num="05">Контакты</a>
+  </nav>
+</div>
+
+  <main>
+
+<section class="hero">
+  <div class="hero-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <div class="hero-content container">
+    <div class="hero-text">
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        Открыт к проектам
+      </div>
+      <h1>Веб-разработчик</h1>
+      <h2>Илья Бабабеков</h2>
+      <p class="subtitle">Fullstack, верстка с нуля, правки и доработка проектов, WordPress и 1С-Битрикс.</p>
+    </div>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-primary">Смотреть проекты</a>
+      <a href="#contact" class="btn btn-outline">Связаться</a>
+    </div>
+  </div>
+</section>
+
+    <section id="about" class="container reveal">
+      <h2 class="section-title">О себе</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Собираю сайты с нуля, переношу статику в CMS, дорабатываю существующие проекты
+            на WordPress и 1С-Битрикс. Есть опыт коммерческой разработки — от верстки
+            по референсам до настройки CMS и интеграций.
+          </p>
+          <p>
+            Умею разбираться в чужом коде: находить неочевидные баги, конфликты плагинов,
+            проблемы с адаптивностью. Спокойно работаю с меняющимися требованиями и
+            правками по ходу проекта.
+          </p>
+          <p>
+            Сейчас развиваю собственный инструмент для разработчиков — ИИ-среду, которая
+            анализирует кодовую базу, находит зависимости между файлами и помогает
+            быстро локализовать баги.
+          </p>
+        </div>
+        <div class="skills">
+          <div class="skills-group">
+            <h3>Core</h3>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">Python</span>
+          </div>
+          <div class="skills-group">
+            <h3>CMS</h3>
+            <span class="skill-tag">WordPress</span>
+            <span class="skill-tag">1С-Битрикс</span>
+          </div>
+          <div class="skills-group">
+            <h3>Инструменты</h3>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Reg.ru</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="services" class="container reveal">
+  <h2 class="section-title">Услуги</h2>
+  <div class="services-grid">
+
+    <div class="service-card">
+      <div class="service-icon">🎨</div>
+      <h3>Верстка с нуля</h3>
+      <p>Адаптивная верстка по макету или референсам. HTML, CSS, JavaScript. Пиксель-в-пиксель, быстро, с проверкой на всех устройствах.</p>
+      <span class="service-price">от 5 000 ₽</span>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🔧</div>
+      <h3>Правки и доработка</h3>
+      <p>Исправление верстки, адаптива, багов, конфликтов плагинов. Работа с чужим кодом без вопросов «а почему так написано».</p>
+      <span class="service-price">от 500 ₽</span>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">⚙️</div>
+      <h3>WordPress</h3>
+      <p>Создание и доработка сайтов, кастомные темы, настройка ACF, форм, интеграций. Обучение заказчика работе с CMS.</p>
+      <span class="service-price">от 3 000 ₽</span>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🛒</div>
+      <h3>1С-Битрикс</h3>
+      <p>Разработка и доработка сайтов, каталогов, настройка компонентов, интеграция шаблонов, кастомные решения.</p>
+      <span class="service-price">от 5 000 ₽</span>
+    </div>
+
+  </div>
+</section>
+
+    <section id="projects" class="container reveal">
+      <h2 class="section-title">Проекты</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <img src="images/forza10-preview.webp" alt="Forza10 — интернет-каталог" class="project-image" />
+          <div class="project-body">
+            <h3 class="project-title">Forza10 — интернет-каталог</h3>
+            <p class="project-desc">
+              Коммерческий сайт с нуля для бренда ветеринарных кормов. Без макета —
+              от референсов и словесного ТЗ.
+            </p>
+            <div class="project-tags">
+              <span>1С-Битрикс</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>PHP</span>
+              <span>адаптив</span>
+            </div>
+<div class="project-links">
+  <a href="projects/forza10.html">Подробнее →</a>
+  <a href="https://форза10.рф" target="_blank" rel="noopener">Живой сайт ↗</a>
+</div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/psy-preview.webp" alt="Сайт психолога на WordPress" class="project-image" />
+          <div class="project-body">
+            <h3 class="project-title">Сайт психолога — миграция в WordPress</h3>
+            <p class="project-desc">
+              Перенос статичного сайта в WordPress, решение проблем чужого кода,
+              настройка CMS для самостоятельного ведения.
+            </p>
+            <div class="project-tags">
+              <span>WordPress</span>
+              <span>PHP</span>
+              <span>ACF</span>
+              <span>Contact Form 7</span>
+              <span>Elementor</span>
+              <span>адаптив</span>
+            </div>
+            <div class="project-links">
+              <a href="https://ingener-psy.ru" target="_blank" rel="noopener">Живой сайт →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+<section id="faq" class="container reveal">
+  <h2 class="section-title">Частые вопросы</h2>
+  <div class="faq-list">
+
+    <details class="faq-item">
+      <summary>Сколько стоит разработка сайта?</summary>
+      <p>Зависит от задачи. Верстка лендинга — от 5 000 ₽, правки — от 500 ₽, доработка на CMS — от 3 000 ₽. Точную цену скажу после обсуждения задачи. Напишите в Telegram — разберём.</p>
+    </details>
+
+    <details class="faq-item">
+      <summary>Как быстро выполняете заказы?</summary>
+      <p>Небольшие правки — 1–2 дня. Верстка или крупные доработки — обсуждаем сроки индивидуально. Обычно беру на себя реалистичные сроки и не срываю их.</p>
+    </details>
+
+    <details class="faq-item">
+      <summary>Работаете с чужим кодом?</summary>
+      <p>Да, это одна из моих сильных сторон. Разбираюсь в проектах, оставшихся от других разработчиков: нахожу баги, конфликты плагинов, проблемы с адаптивом. Аккуратно правлю, не ломая существующее.</p>
+    </details>
+
+    <details class="faq-item">
+      <summary>Как мы будем работать и как происходит оплата?</summary>
+      <p>Обсуждаем задачу в Telegram, я оцениваю сроки и стоимость. Работаю по предоплате 50% или поэтапной оплате. Все детали обсуждаем до старта — никаких сюрпризов в процессе.</p>
+    </details>
+
+    <details class="faq-item">
+      <summary>Есть ли гарантия на работу?</summary>
+      <p>Да. Если после сдачи обнаружатся баги, которые появились из-за моих правок — исправлю бесплатно в течение двух недель. Это стандартная практика для аккуратной работы.</p>
+    </details>
+
+  </div>
+</section>
+
+    <section id="contact" class="container reveal">
+      <h2 class="section-title">Контакты</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>
+            Открыт к новым проектам: верстка, правки, доработка сайтов на WordPress
+            и 1С-Битрикс. Пишите в Telegram — отвечу быстро.
+          </p>
+          <div class="contact-links">
+            <a href="https://t.me/EelijeE_web_dev" target="_blank" rel="noopener">
+              ✈️ Telegram: @EelijeE_web_dev
+            </a>
+            <a href="https://github.com/EelijeE" target="_blank" rel="noopener">
+              🐙 GitHub: EelijeE
+            </a>
+          </div>
+        </div>
+        <form id="contact-form">
+          <input type="text" name="name" placeholder="Ваше имя" required />
+          <input type="text" name="contact" placeholder="Telegram или Email" required />
+          <textarea name="message" placeholder="Ваше сообщение" required></textarea>
+          <button type="submit" class="btn btn-primary">Отправить</button>
+          <p class="form-status" id="form-status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 Илья Бабабеков — веб-разработчик
+    </div>
+  </footer>
+<!-- Прогресс-бар чтения -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Кнопка «Наверх» -->
+<button class="back-to-top" id="backToTop" aria-label="Наверх">↑</button>
+<button class="floating-contact" id="floatingContact" aria-label="Связаться">
+  <span>💬</span>
+  <span class="floating-contact-label">Связаться</span>
+</button>
+  <script src="script.js"></script>
+</body>
+</html>
